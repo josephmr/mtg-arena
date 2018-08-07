@@ -1,0 +1,12 @@
+{
+  "name": "scripts",
+  "version": "0.0.1",
+  "description": "MTGA helper scripts",
+  "scripts": {
+    "compile": "tsc --outDir dist",
+    "ids": "npm run compile && node dist/card_ids.js"
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.24"
+  }
+}
